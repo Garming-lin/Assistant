@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Frm_Web));
             this.label1 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.cboxReq = new System.Windows.Forms.ComboBox();
@@ -98,6 +99,7 @@
             this.Controls.Add(this.cboxReq);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Frm_Web";
             this.Text = "Web助手";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Frm_Web_FormClosing);
