@@ -18,6 +18,7 @@ namespace Assistant
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             //Application.Run(new Frm_Main());
+
             //Application.Run(new Frm_NetWork());
             Application.Run(new Frm_SerialPort());
             //Application.Run(new Frm_Web());
