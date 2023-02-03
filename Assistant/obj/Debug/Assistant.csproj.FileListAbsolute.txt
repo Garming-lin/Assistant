@@ -1,0 +1,16 @@
+E:\多功能调试助手\Assistant\bin\Debug\Assistant.exe.config
+E:\多功能调试助手\Assistant\bin\Debug\Assistant.exe
+E:\多功能调试助手\Assistant\bin\Debug\Assistant.pdb
+E:\多功能调试助手\Assistant\obj\Debug\Assistant.csproj.AssemblyReference.cache
+E:\多功能调试助手\Assistant\obj\Debug\Assistant.csproj.SuggestedBindingRedirects.cache
+E:\多功能调试助手\Assistant\obj\Debug\Assistant.Frm_Main.resources
+E:\多功能调试助手\Assistant\obj\Debug\Assistant.Properties.Resources.resources
+E:\多功能调试助手\Assistant\obj\Debug\Assistant.csproj.GenerateResource.cache
+E:\多功能调试助手\Assistant\obj\Debug\Assistant.csproj.CoreCompileInputs.cache
+E:\多功能调试助手\Assistant\obj\Debug\Assistant.exe
+E:\多功能调试助手\Assistant\obj\Debug\Assistant.pdb
+E:\多功能调试助手\Assistant\obj\Debug\Assistant.Frm_SerialPort.resources
+E:\多功能调试助手\Assistant\obj\Debug\Assistant.Frm_NetWork.resources
+E:\多功能调试助手\Assistant\bin\Debug\System.Data.SQLite.dll
+E:\多功能调试助手\Assistant\obj\Debug\Assistant.csproj.CopyComplete
+E:\多功能调试助手\Assistant\obj\Debug\Assistant.Web.Frm_Web.resources
