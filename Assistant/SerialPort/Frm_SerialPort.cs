@@ -475,12 +475,20 @@ namespace Assistant
                     if(cboxShowSend.Checked)
                     {
                         c = Color.White;
+                        if (tboxRecieve.SelectionStart != tboxRecieve.Text.Length)
+                        {
+                            tboxRecieve.SelectionStart = tboxRecieve.Text.Length;
+                        }
                         tboxRecieve.SelectionColor = c;
                         tboxRecieve.AppendText(sMsg);
                     }
                 }
                 else
                 {
+                    if (tboxRecieve.SelectionStart != tboxRecieve.Text.Length)
+                    {
+                        tboxRecieve.SelectionStart = tboxRecieve.Text.Length;
+                    }
                     tboxRecieve.SelectionColor = c;
                     tboxRecieve.AppendText(sMsg);
                 }

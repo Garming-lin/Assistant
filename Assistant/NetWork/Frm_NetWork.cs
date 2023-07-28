@@ -239,6 +239,10 @@ namespace Assistant
                 string ser = "服务器";
                 string cli = $"客户端[{sClient}]";
                 string sHeader = string.Format("{0}=>{1}    {2}", iType == 2 ? ser : cli, iType == 2 ? cli : ser, DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss"));
+                if(rtBoxServerRecieve.SelectionStart != rtBoxServerRecieve.Text.Length)
+                {
+                    rtBoxServerRecieve.SelectionStart = rtBoxServerRecieve.Text.Length;
+                }
                 rtBoxServerRecieve.SelectionColor = c;
                 rtBoxServerRecieve.AppendText("\r\n" + sHeader);
                 rtBoxServerRecieve.SelectionColor = c;
@@ -247,6 +251,10 @@ namespace Assistant
             else
             {
                 string sHeader = string.Format("{0}[{1}]=>    {2}", "服务器", sServer, DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss"));
+                if (rtBoxServerRecieve.SelectionStart != rtBoxServerRecieve.Text.Length)
+                {
+                    rtBoxServerRecieve.SelectionStart = rtBoxServerRecieve.Text.Length;
+                }
                 rtBoxServerRecieve.SelectionColor = c;
                 rtBoxServerRecieve.AppendText("\r\n" + sHeader);
                 rtBoxServerRecieve.SelectionColor = c;
@@ -400,6 +408,10 @@ namespace Assistant
                         btnCreateServer.Text = "关闭";
                         if (string.IsNullOrEmpty(exMsg))
                         {
+                            if (rtBoxServerRecieve.SelectionStart != rtBoxServerRecieve.Text.Length)
+                            {
+                                rtBoxServerRecieve.SelectionStart = rtBoxServerRecieve.Text.Length;
+                            }
                             rtBoxServerRecieve.SelectionColor = Color.Green;
                             rtBoxServerRecieve.AppendText("\r\n创建服务器成功...");
                         }
@@ -420,6 +432,10 @@ namespace Assistant
                         btnCreateServer.Text = "创建服务器";
                         if (string.IsNullOrEmpty(exMsg))
                         {
+                            if (rtBoxServerRecieve.SelectionStart != rtBoxServerRecieve.Text.Length)
+                            {
+                                rtBoxServerRecieve.SelectionStart = rtBoxServerRecieve.Text.Length;
+                            }
                             rtBoxServerRecieve.SelectionColor = Color.Red;
                             rtBoxServerRecieve.AppendText("\r\n关闭服务器...");
                         }
@@ -695,6 +711,10 @@ namespace Assistant
             Color c = bServer ? Color.Red : Color.Yellow;
             string ser = "服务器[" + sServer + "]";
             string cli = "客户端[" + sClient + "]";
+            if (rtBoxClientRecieve.SelectionStart != rtBoxClientRecieve.Text.Length)
+            {
+                rtBoxClientRecieve.SelectionStart = rtBoxClientRecieve.Text.Length;
+            }
             string sHeader = string.Format("{0}=>{1}    {2}", bServer ? ser : cli, bServer ? cli : ser, DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss"));
             rtBoxClientRecieve.SelectionColor = c;
             rtBoxClientRecieve.AppendText("\r\n" + sHeader);
